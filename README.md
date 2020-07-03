@@ -15,7 +15,7 @@ npm run serve
 npm run build
 ```
 
-![](https://github.com/RLflash/page-select/blob/master/theme/1.png)
+![](https://github.com/RLflash/page-select/blob/master/theme/%EF%BC%91.png)
 ![](https://github.com/RLflash/page-select/blob/master/theme/2.png)
 ![](https://github.com/RLflash/page-select/blob/master/theme/3.png)
 
