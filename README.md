@@ -15,13 +15,9 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![](https://github.com/RLflash/page-select/blob/master/theme/1.png)
+![](https://github.com/RLflash/page-select/blob/master/theme/2.png)
+![](https://github.com/RLflash/page-select/blob/master/theme/3.png)
 
 ### 参数
 
@@ -37,7 +33,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 |                   |          |              | current (继承)  | 当前页                   | 1        |
 |                   |          |              | size (继承)     | 每页多少条数据           | 10       |
 
-###方法
+### 方法
 
 getQuery
 返回查询条件，在这里可以进行数据请求
