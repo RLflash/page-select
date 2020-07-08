@@ -37,7 +37,6 @@
 <script>
 	export default {
 		name: 'pageSelect',
-		// props: ['tableData', 'tableHead', 'seachQuery', 'showSelect', 'value','pageData'],
 		props: {
 			tableData:{
 				type:Array,

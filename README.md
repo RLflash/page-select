@@ -1,35 +1,39 @@
 # page-select
 
-## Project setup
+### 安装依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 运行demo
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+---
 
-![](https://github.com/RLflash/page-select/blob/master/theme/%EF%BC%91.png)
+![](https://github.com/RLflash/page-select/blob/master/theme/1.png)
 ![](https://github.com/RLflash/page-select/blob/master/theme/2.png)
 ![](https://github.com/RLflash/page-select/blob/master/theme/3.png)
+
+### 安装page-select包
+```
+npm i page-select
+```
+
+
 
 ### 参数
 
 | 参数              | 默认参数 |              | 子参数          |                          | 默认参数 |
 | ----------------- | -------- | ------------ | --------------- | ------------------------ | -------- |
-| showSelect (必填) |          | 输入框数据   | placeH (可选)   | 输入框placeholder        | ''       |
+| show-select (必填) |          | 输入框数据   | placeH (可选)   | 输入框placeholder        | ''       |
 |                   |          |              | dataKey (必填)  | 输入框所要展示数据的字段 |          |
-| seachQuery (可选) | ［］     | 搜索条件数据 | seachKey (继承) | 查询输入框条件字段       |          |
+| seach-query (可选) | ［］     | 搜索条件数据 | seachKey (继承) | 查询输入框条件字段       |          |
 |                   |          |              | placeH (继承)   | 查询输入框placeholder    |          |
-| tableHead (可选)  | ［］     | 表单头部数据 |                 |                          |          |
-| tableData (可选)  | ［］     | 表单展示数据 |                 |                          |          |
-| pageData (可选)   |          |              | total (继承)    | 总数据数量               | 100      |
+| table-head (可选)  | ［］     | 表单头部数据 |                 |                          |          |
+| table-data (可选)  | ［］     | 表单展示数据 |                 |                          |          |
+| page-data (可选)   |          |              | total (继承)    | 总数据数量               | 100      |
 |                   |          |              | current (继承)  | 当前页                   | 1        |
 |                   |          |              | size (继承)     | 每页多少条数据           | 10       |
 
@@ -40,6 +44,8 @@ getQuery
 
 getSelectData
 返回选中数据，用于输入框展示
+
+### 实例
 
 ```
 <el-form-item label="手机号">
@@ -72,8 +78,8 @@ data(){
 },
 methods:{
 	getQuery(val){
-		// 请求数据 val 为请求参数
-		console.log(val)
+		// val为请求所需参数 console.log(val)
+		//在这发送请求
 	},
 	getSelectData(val){
 		this.value=val

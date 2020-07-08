@@ -18,7 +18,7 @@
   </div>
 </template>
 <script>
-import pageSelect from './components/pageSelect.vue'
+import pageSelect from 'page-select'
 export default {
   name: 'App',
   components: {
