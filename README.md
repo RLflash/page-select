@@ -12,9 +12,9 @@ npm run serve
 
 ---
 
-![](https://github.com/RLflash/page-select/blob/master/theme/1.png)
-![](https://github.com/RLflash/page-select/blob/master/theme/2.png)
-![](https://github.com/RLflash/page-select/blob/master/theme/3.png)
+![](https://img2020.cnblogs.com/blog/1064049/202007/1064049-20200708115433479-1142028166.png)
+![](https://img2020.cnblogs.com/blog/1064049/202007/1064049-20200708115436498-708829378.png)
+![](https://img2020.cnblogs.com/blog/1064049/202007/1064049-20200708115440054-1124546709.png)
 
 ### 安装page-select包
 ```
